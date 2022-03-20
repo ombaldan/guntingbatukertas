@@ -1,0 +1,36 @@
+.container-sm {
+    min-height: auto;
+    margin: 100px 50px 100px 50px;
+    background-color: rgb(253, 242, 229);
+    display: inline-block;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-sm img {
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.col-sm-6 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.container-sm .col-sm-6 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container-sm .col-sm-6 h1 {
+    font-size: 36px;
+}
+
+.btn {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
