@@ -1,36 +1,48 @@
-.container-sm {
-    min-height: auto;
-    margin: 100px 50px 100px 50px;
-    background-color: rgb(253, 242, 229);
-    display: inline-block;
-    border-radius: 50px;
+body {
+    background-color: #feffc3;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.container-sm img {
-    position: relative;
-    border-radius: 50%;
-    
+.container-sm .btn, h1 {
+    text-transform: uppercase;
+    font-size: 80px;
 }
 
-.col-sm-6 {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    padding-right: 10%;
-    padding-left: 10%;
+.col-sm-12 {
+    padding-top: 10%;
 }
 
-.container-sm .col-sm-6 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+.user {
+    margin-top: 50px;
 }
 
-.container-sm .col-sm-6 h1 {
-    font-size: 36px;
+.user h4 {
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
-.btn {
-    margin-top: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
+#player1 img {
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.versus h3 {
+    font-size: 60px;
+    color: red;
+    margin-top: 30%;
+}
+
+#comp img {
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.refresh img {
+    margin-top: 30px;
+    width: 50px;
+    padding-bottom: 10%;
 }
