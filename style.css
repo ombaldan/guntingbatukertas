@@ -1,48 +1,44 @@
 body {
-    background-color: #feffc3;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #9C835F;
 }
 
-.container-sm .btn, h1 {
-    text-transform: uppercase;
-    font-size: 80px;
+.heading {
+    margin-top: 50px; 
+}
+h1 {
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #F9B23D;
+   padding-top: 20px;
 }
 
-.col-sm-12 {
-    padding-top: 10%;
-}
-
-.user {
+.row {
     margin-top: 50px;
 }
 
-.user h4 {
-    font-size: 30px;
+.versus h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+.card-header {
+    background-color: #F9B23D;
+    color: black;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
-#player1 img {
-    margin-top: 30px;
-    padding-top: 10px;
-    width: 50px;
+.col-md-5 {
+    max-width: 300px;
 }
 
-.versus h3 {
-    font-size: 60px;
-    color: red;
-    margin-top: 30%;
+.col-md-5 img {
+    margin: 10px;
 }
 
-#comp img {
-    margin-top: 30px;
-    padding-top: 10px;
-    width: 50px;
-}
-
-.refresh img {
-    margin-top: 30px;
-    width: 50px;
-    padding-bottom: 10%;
+.mt-3 {
+    margin-bottom: 50px;
 }
